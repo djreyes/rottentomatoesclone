@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BoxOfficeVC.h
 //  rottentomatoes
 //
 //  Created by Jeremy Reyes on 10/17/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface BoxOfficeVC : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end
